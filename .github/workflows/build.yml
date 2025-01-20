@@ -15,7 +15,7 @@ jobs:
     - name: Build Kernel
       uses: dabao1955/kernel_build_action@main
       with:
-          kernel-url: https://github.com/liwhy1/android_kernel_oplus_mt6893
+          kernel-url: https://github.com/Kingslayer9988/android_kernel_oplus_mt6893
           kernel-branch: lineage-21
           config: denniz_defconfig
           arch: arm64
