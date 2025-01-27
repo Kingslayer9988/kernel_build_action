@@ -28,9 +28,7 @@ jobs:
           other-clang-url: https://gitlab.com/projectelixiros/android_prebuilts_clang_host_linux-x86_clang-r468909b
           other-clang-branch: master
           ksu: false
-          ksu-other: true
-          ksu-url: https://github.com/rifsxd/KernelSU-Next
-          ksu-version: next
+          ksu-other: false
           disable-lto: true
-          anykernel3: false
+          anykernel3: true
           extra-cmd: LLVM=1 LLVM_IAS=1
