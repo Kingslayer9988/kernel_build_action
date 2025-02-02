@@ -30,9 +30,9 @@ jobs:
           other-clang-branch: master
           ksu: false
           ksu-other: true
-          ksu-url: https://github.com/Kingslayer9988/KernelSU-Next.git
+          ksu-url: https://github.com/rifsxd/KernelSU-Next
           ksu-version: next-susfs
           disable-lto: true
           anykernel3: true
-          anykernel3-url: https://github.com/Kingslayer9988/AnyKernel3.git
+          anykernel3-url: https://github.com/Kingslayer9988/AnyKernel3
           extra-cmd: LLVM=1 LLVM_IAS=1
