@@ -15,8 +15,9 @@ jobs:
     - name: Build Kernel
       uses: dabao1955/kernel_build_action@main
       with:
-          kernel-url: https://github.com/mt6893-development/android_kernel_oplus_mt6893
-          kernel-branch: lineage-21
+          kernel-url: https://github.com/Kingslayer9988/android_kernel_oplus_mt6893
+          kernel-branch: susfs-154
+          ccache: false
           config: cupida_defconfig
           arch: arm64
           aosp-gcc: false
@@ -28,7 +29,10 @@ jobs:
           other-clang-url: https://gitlab.com/projectelixiros/android_prebuilts_clang_host_linux-x86_clang-r468909b
           other-clang-branch: master
           ksu: false
-          ksu-other: false
+          ksu-other: true
+          ksu-url: https://github.com/Kingslayer9988/KernelSU-Next.git
+          ksu-version: next-susfs
           disable-lto: true
-          anykernel3: false
+          anykernel3: true
+          anykernel3-url: https://github.com/Kingslayer9988/AnyKernel3.git
           extra-cmd: LLVM=1 LLVM_IAS=1
