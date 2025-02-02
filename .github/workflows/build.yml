@@ -16,7 +16,7 @@ jobs:
       uses: dabao1955/kernel_build_action@main
       with:
           kernel-url: https://github.com/mt6893-development/android_kernel_oplus_mt6893
-          kernel-branch: lineage-22.1
+          kernel-branch: lineage-21
           config: cupida_defconfig
           arch: arm64
           aosp-gcc: false
